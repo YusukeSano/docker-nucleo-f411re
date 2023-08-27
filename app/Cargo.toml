@@ -9,8 +9,9 @@ embedded-hal = "0.2"
 nb = "1"
 cortex-m = "0.7"
 cortex-m-rt = "0.7"
+cortex-m-semihosting = "0.5"
 panic-halt = "0.2"
 
 [dependencies.stm32f4xx-hal]
-version = "0.13.2"
+version = "0.17.1"
 features = ["stm32f411"]
